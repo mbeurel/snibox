@@ -24,17 +24,17 @@ _Enter your parameters_
 docker-compose up # -d to detach container
 ```
 
+Open your favorite navigator and enter your 'SNIBOX_DOMAIN'
+
+Great, your snibox is configure and start !
+
+## Local
 If your domain is local so comment line "...tls.certresolver" in your docker-compose file and add your domain to /etc/hosts
 
 **Add 'TRAEFIK_DOMAIN' to your host**
 ```bash
 sudo echo "127.0.0.1  YOUR_TRAEFIK_DOMAIN"  >> /etc/hosts
 ```
-
-Open your favorite navigator and enter your 'SNIBOX_DOMAIN'
-
-Great, your snibox is configure and start !
-
 
 ## Credits
 
