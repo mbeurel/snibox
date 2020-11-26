@@ -32,7 +32,7 @@ services:
       DB_PASS: "${DB_PASS}"
       DB_HOST: "${DB_HOST}"
       DB_PORT: "${DB_PORT}"
-      FORCE_SSL: false
+      FORCE_SSL: "false"
       MAILGUN_SMTP_PORT: "${MAILGUN_SMTP_PORT}"
       MAILGUN_SMTP_SERVER: "${MAILGUN_SMTP_SERVER}"
       MAILGUN_SMTP_LOGIN: "${MAILGUN_SMTP_LOGIN}"

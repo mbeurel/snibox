@@ -33,7 +33,7 @@ If your domain is local so comment line "...tls.certresolver" in your docker-com
 
 **Add 'TRAEFIK_DOMAIN' to your host**
 ```bash
-sudo echo "127.0.0.1  YOUR_TRAEFIK_DOMAIN"  >> /etc/hosts
+sudo echo "127.0.0.1  YOUR_SNIBOX_DOMAIN"  >> /etc/hosts
 ```
 
 ## Credits
