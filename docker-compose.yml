@@ -19,7 +19,7 @@ services:
       - "traefik.http.routers.snibox-https.rule=Host(`${SNIBOX_DOMAIN}`)"
       - "traefik.http.routers.snibox-https.entryPoints=websecure"
       - "traefik.http.routers.snibox-https.tls=true"
-      - "traefik.http.routers.snibox-https.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.snibox-https.tls.certresolver=${CERT_RESOLVER}"
 
   backend:
     image: snibox/snibox:latest
